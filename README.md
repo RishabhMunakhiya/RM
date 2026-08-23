@@ -1,7 +1,7 @@
 # Student Data Pipeline & UI
 
 ## Overview
-(image.png)
+![Student Data Pipeline UI](./image.png)
 The Student Data Pipeline & UI is a fully functional React application designed to clean, validate, and analyze student datasets. This technical assessment project allows users to upload a raw CSV dataset, automatically processes it (handling duplicates and missing values), recalculates and validates scores, and presents the cleaned data in a dynamic table with real-time filtering and live statistics. 
 
 ## Features
