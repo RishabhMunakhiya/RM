@@ -1,7 +1,7 @@
 # Student Data Pipeline & UI
 
 ## Overview
-
+(image.png)
 The Student Data Pipeline & UI is a fully functional React application designed to clean, validate, and analyze student datasets. This technical assessment project allows users to upload a raw CSV dataset, automatically processes it (handling duplicates and missing values), recalculates and validates scores, and presents the cleaned data in a dynamic table with real-time filtering and live statistics. 
 
 ## Features
@@ -101,4 +101,4 @@ Clicking **Export CSV** will generate a new `.csv` file containing only the stud
 
 ## Video Demo
 
-[Watch 90-second Demo](VIDEO_LINK_HERE)
+[Watch 90-second Demo](https://drive.google.com/file/d/1bwoHzbW_Il_2LMb6EWBLM9OCH406KPpE/view?usp=sharing)
