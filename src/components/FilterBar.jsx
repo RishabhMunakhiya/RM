@@ -29,17 +29,19 @@ const FilterBar = ({
       </div>
 
       <div className="filter-group score-group">
-        <Filter size={16} className="input-icon" />
-        <label htmlFor="minScore" className="sr-only">Minimum Total Score</label>
-        <input 
-          id="minScore"
-          type="number" 
-          placeholder="Min Total Score" 
-          value={minTotalScore}
-          onChange={(e) => setMinTotalScore(e.target.value)}
-          className="score-input"
-          min="0"
-        />
+        <label htmlFor="minScore" className="filter-label">Min Score:</label>
+        <div className="input-wrapper">
+          <Filter size={16} className="input-icon" />
+          <input 
+            id="minScore"
+            type="number" 
+            placeholder="e.g. 250" 
+            value={minTotalScore}
+            onChange={(e) => setMinTotalScore(e.target.value)}
+            className="score-input"
+            min="0"
+          />
+        </div>
       </div>
 
       <div className="filter-actions">
