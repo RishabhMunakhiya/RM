@@ -101,7 +101,7 @@ export const useStudentData = () => {
 
       // 3. Search logic
       if (searchQuery.trim() !== '') {
-        const q = searchQuery.toLowerCase();
+        const q = searchQuery.trim().toLowerCase();
         const matchesName = (student.Name || '').toLowerCase().includes(q);
         const matchesGender = (student.Gender || '').toLowerCase().includes(q);
         const matchesGrade = String(student.Grade || '').toLowerCase().includes(q);
